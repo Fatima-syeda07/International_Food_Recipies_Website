@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Recipes</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1d1f20;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            background-image: url('indian\ dish.jpg');
+            background-size: cover;
+            padding: 100px 20px;
+        }
+
+        header h1 {
+            font-size: 4em;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.5em;
+        }
+
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        #recipes, #testimonials {
+            background-color: #2a2c2e;
+            margin-bottom: 20px;
+        }
+
+        #recipes {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .card {
+            background-color: #3a3d40;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin: 20px;
+            width: calc(33% - 40px);
+            text-align: center;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 20px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .card-content h3 {
+            margin-top: 0;
+            font-size: 1.5em;
+        }
+
+        .card-content ul {
+            padding: 0;
+            list-style: none;
+            text-align: left;
+            width: 100%;
+            font-size: 1.2em;
+        }
+
+        .card-content ul li {
+            margin: 5px 0;
+        }
+
+        .card-content a {
+            text-decoration: none;
+        }
+
+        .card-content button {
+            background-color: #ff6347;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 1.2em;
+            margin-top: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #testimonials .testimonial {
+            text-align: left;
+            margin: 20px auto;
+            width: 50%;
+        }
+
+        #testimonials .testimonial img {
+            width: 100px;
+            border-radius: 50%;
+            float: left;
+            margin-right: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1d1f20;
+            color: #fff;
+        }
+
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.323) !important;
+        }
+
+        .navbar-nav .nav-link {
+            font-weight: bold;
+            font-size: 1.2rem;
+            color: white !important;
+        }
+
+        .navbar-brand img {
+            border-radius: 50%;
+            object-fit: cover;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="project.html"><b>Home</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="recipes.html" target="_blank"><b>Recipes</b></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mx-auto order-0">
+                <a class="navbar-brand mx-auto" href="project.html">
+                    <img src="logo.jpg" alt="Logo" height="100">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="font-size: 1.5rem; color: white; font-weight: bold;">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html"><b>About</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html"><b>Contact</b></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Indian Famous Dishes</h1>
+        <p>Best recipes from all over the India.</p>
+    </header>
+
+    <h2 style="text-align: center;">Recipes</h2>
+    <section id="recipes">
+        <div class="card">
+            <img src="ind curry.png" alt="curry">
+            <div class="card-content">
+                <h3>Indian Chicken Curry (Murgh Kari)</h3>
+                <ul>
+                    <li>2 poundsskinless, boneless chicken breast halves</li>
+                    <li>1 ½ cups chopped onion</li>
+                    <li>1 tablespoon minced garli</li>
+                </ul>
+                <a href="indian chicken curry.html" target="_blank"><button>View More</button></a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="biryani.png" alt="biryani">
+            <div class="card-content">
+                <h3>Indian Chicken Biryani</h3>
+                <ul>
+                    <li>2/3 cup plain yogurt</li>
+                    <li>1/2 cup water</li>
+                    <li>1 Tbsp. vegetable oil</li>
+                </ul>
+                <a href="indian  biryani.html" target="_blank"><button>View More</button></a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="samosa.png" alt="samosa">
+            <div class="card-content">
+
+                <h3>Samosa</h3>
+                <ul>
+                    <li>¼ cup (60 ml) oil or melted ghee</li>
+                    <li>6 tablespoons (90 ml) water</li>
+                    <li>2 cups (250 grams) all-purpose flour (organic/ unbleached)</li>
+                </ul>
+                <a href="samosa.html" target="_blank"><button>View More</button></a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="khichdi.png" alt="khichdi">
+            <div class="card-content">
+                <h3>khichdi</h3>
+                <ul>
+                    <li>1 to 2 tablespoons ghee (clarified butter) or oil</li>
+                    <li> 1 teaspoon ginger grated or ginger paste (1 inch piece)</li>
+                    <li>1 bay leaf or 1 sprig of curry leaves (optional)</li>
+                </ul>
+                <a href="#" target="_blank"><button>View More</button></a>
+            </div>
+        </div>
+       
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 International Food Recipes. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

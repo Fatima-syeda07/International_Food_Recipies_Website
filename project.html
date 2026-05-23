@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>International Food Recipes</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      position: relative;
+    }
+    body::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('bg1.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      opacity: 1.1;
+      z-index: -1;
+    }
+    .navbar {
+      background-color: rgba(0, 0, 0, 0.458) !important;
+    }
+    .navbar-nav .nav-link {
+      font-weight: bold;
+      font-size: 1.5rem;
+      color: white !important;
+    }
+    .review-box {
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 10px;
+      padding: 40px; /* Increased padding for expansion */
+      margin-top: 50px;
+    }
+    .review {
+      margin-bottom: 20px;
+    }
+    .review h3 {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .review p {
+      font-size: 1rem;
+    }
+    .profile-img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 10px;
+    }
+    .profile-name {
+      font-weight: bold;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="project.html"><b>Home</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="recipes.html" target="_blank"><b>Recipes</b></a>
+        </li>
+      </ul>
+    </div>
+
+    <!--logo link-->
+    <div class="mx-auto order-0">
+      <a class="navbar-brand mx-auto" href="project.html">
+        <img src="logo.jpg" alt="Logo" height="150" style="border-radius: 50%; object-fit: cover; background-color: white;">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2" aria-controls="navbarNav" 
+      aria-expanded="false" aria-label="Toggle navigation" style="font-size: 1.5rem; color: white; font-weight: bold;">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+    
+    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="about.html"><b>About</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html"><b>Contact</b></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Content -->
+<div class="container d-flex justify-content-center align-items-center vh-100">
+  <div class="row">
+    <div class="col">
+      <h1 class="text-center text-light" style="font-size: 3rem;"><b><i>Welcome to (I.F.R) International Food Recipes</i></b></h1>
+      <p class="text-center text-light" style="font-size: 3rem;"><i>Chase the best flavour today!</i></p>
+      
+      <!-- Embedded YouTube Video -->
+      <div class="d-flex justify-content-center">
+        <iframe width="860" height="415" src="https://www.youtube.com/embed/xPPLbEFbCAo" frameborder="0" 
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      
+      <!-- View More Button -->
+      <div class="d-flex justify-content-center mt-4">
+        <a href="recipes.html" class="btn btn-danger btn-lg" target="_blank">View More</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Review Section -->
+<h1 class="text-center text-light" style="font-size: 3rem;"><b><i>Reviews</i></b></h1>
+<section id="reviews">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-20"> <!-- Increased width of the review box -->
+        <div class="review-box">
+          <div class="review">
+            <div class="d-flex align-items-center">
+              <img src="p1.jpg" alt="Profile 1" class="profile-img">
+              <div>
+                <p class="profile-name">John Doe</p>
+              </div>
+            </div>
+            <p>The recipes are fantastic, easy to follow, and delicious. I have tried several of them, and they have all turned out great!</p>
+          </div>
+          <div class="review">
+            <div class="d-flex align-items-center">
+              <img src="p2.jpg" alt="Profile 2" class="profile-img">
+              <div>
+                <p class="profile-name">Jane Smith</p>
+              </div>
+            </div>
+            <p>I highly recommend International Food Recipes to anyone looking to explore different cuisines. The variety of recipes is impressive!</p>
+          </div>
+          <div class="review">
+            <div class="d-flex align-items-center">
+              <img src="p3.jpg" alt="Profile 3" class="profile-img">
+              <div>
+                <p class="profile-name">Michael Johnson</p>
+              </div>
+            </div>
+            <p>This website has become my go-to resource for cooking. The recipes are diverse, and there's something for everyone!</p>
+          </div>
+
+          <div class="review">
+            <div class="d-flex align-items-center">
+              <img src="p4.jpg" alt="Profile 4" class="profile-img">
+              <div>
+                <p class="profile-name">Sarah Williams</p>
+              </div>
+            </div>
+            <p>The recipes are amazing! I love trying out new dishes from different countries. Thanks for the inspiration!</p>
+          </div>
+          <div class="review">
+            <div class="d-flex align-items-center">
+              <img src="p5.jpg" alt="Profile 5" class="profile-img">
+              <div>
+                <p class="profile-name">David Brown</p>
+              </div>
+            </div>
+            <p>Excellent recipes! The step-by-step instructions make it easy for even beginners to cook delicious meals.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2024 International Food Recipes. All rights reserved.</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - International Food Recipes</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      position: relative;
+    }
+    body::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('bg1.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      opacity: 1.1;
+      z-index: -1;
+    }
+    .navbar {
+      background-color: rgba(0, 0, 0, 0.458) !important;
+    }
+    .navbar-nav .nav-link {
+      font-weight: bold;
+      font-size: 1.5rem;
+      color: white !important;
+    }
+    .content-box {
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 10px;
+      padding: 40px;
+      margin-top: 50px;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="project.html"><b>Home</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="recipes.html" target="_blank"><b>Recipes</b></a>
+        </li>
+      </ul>
+    </div>
+    <div class="mx-auto order-0">
+      <a class="navbar-brand mx-auto" href="project.html">
+        <img src="logo.jpg" alt="Logo" height="150" style="border-radius: 50%; object-fit: cover; background-color: white;">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="font-size: 1.5rem; color: white; font-weight: bold;">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="about.html"><b>About</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html"><b>Contact</b></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- About Content -->
+<div class="container d-flex justify-content-center align-items-center vh-100">
+  <div class="row">
+    <div class="col">
+      <div class="content-box">
+        <h1 class="text-center" style="font-size: 3rem;"><b><i>About Us</i></b></h1>
+        <p style="font-size: 1.2rem;">Welcome to International Food Recipes (I.F.R), your ultimate destination for exploring diverse and delicious cuisines from around the world. Our mission is to bring the joy of cooking and the taste of international flavors to your kitchen.</p>
+        
+        <h3><b>Our Story</b></h3>
+        <p style="font-size: 1.2rem;">Founded in 2024, I.F.R was born out of a passion for food and a desire to 
+            share the beauty of culinary diversity with the world. Our team of food enthusiasts and chefs work tirelessly 
+            to bring you authentic recipes that are easy to follow and a delight to taste.</p>
+        
+        <h3><b>Our Mission</b></h3>
+        <p style="font-size: 1.2rem;">Our mission is to inspire home cooks to explore new cuisines, 
+            experiment with different ingredients, and discover the joy of cooking. We believe that food is a 
+            universal language that brings people together, and through our recipes, we aim to connect cultures and create 
+            memorable culinary experiences.</p>
+        
+        <h3><b>Our Team</b></h3>
+        <p style="font-size: 1.2rem;">Our team is made up of passionate foodies, experienced chefs, and creative writers who are 
+            dedicated to bringing you the best culinary content. We are committed to quality, authenticity, and a love for all things food.</p>
+        
+        <h3><b>Contact Us</b></h3>
+        <p style="font-size: 1.2rem;">We love to hear from our readers! If you have any questions, feedback, or just want to share your 
+            culinary creations, feel free to reach out to us. You can contact us via our 
+            <a href="contact.html" target="_blank">Contact Page</a>.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2024 International Food Recipes. All rights reserved.</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
